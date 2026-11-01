@@ -6,17 +6,19 @@ PpakAim은 FPS 게임에서 사격 결과를 기록하고 감도·수직 배수 
 
 ## 다운로드
 
-**현재 첫 공개 배포 파일 등록 전입니다.** 설치 파일이 게시되면 아래 Releases 페이지에서 다운로드할 수 있습니다.
+**v1.0.0 설치 파일이 공개 배포되었습니다.** 아래에서 다운로드할 수 있습니다.
 
-**[PpakAim 다운로드 · Releases](https://github.com/gudtjr980-arch/PpakAim-Download/releases)**
+**[PpakAim-Setup.exe 직접 다운로드](https://github.com/gudtjr980-arch/PpakAim-Download/releases/download/V1.0.0/PpakAim-Setup.exe)**
 
-- 배포 파일: `PpakAim-Setup-v1.0.0.exe` (예정된 공개 파일명)
+[릴리스 전체 목록](https://github.com/gudtjr980-arch/PpakAim-Download/releases)
+
+- 배포 파일: `PpakAim-Setup.exe` (GitHub에 실제 게시된 파일명)
 - 대상 운영체제: Windows x64
 - 형태: EXE 설치 프로그램
 - 비용: 무료 배포
 - 디지털 코드 서명: 없음
 
-> 실제 설치 파일이 Releases에 올라오기 전에는 다운로드가 가능하지 않습니다. 다른 Windows PC에서 설치·동작 및 실제 게임 인식은 별도 검증이 필요합니다.
+> GitHub 자산 등록 및 업로드된 원본과의 SHA-256 일치는 확인되었습니다. 다른 Windows PC에서 설치·동작 및 실제 게임 인식은 별도 검증이 필요합니다.
 
 ## 설치
 
@@ -39,4 +41,4 @@ PpakAim은 FPS 게임에서 사격 결과를 기록하고 감도·수직 배수 
 
 설치 오류, 사용 중 문제, 개선 요청은 [Issues](https://github.com/gudtjr980-arch/PpakAim-Download/issues)에 남겨주세요. 문제가 발생한 Windows 버전과 오류 메시지를 첨부하면 확인에 도움이 됩니다. 개인정보·민감한 파일은 공개 이슈에 올리지 마세요.
 
-이 저장소는 **설치 프로그램 배포 전용**이며 개발 소스코드는 포함하지 않습니다.
+이 저장소는 **설치 프로그램 배포 전용**이며 개발 소스코드는 포함하지 않습니다. GitHub의 자동 생성 파일인 Source code (zip/tar.gz)는 이 공개 저장소의 안내 문서만 담은 압축본으로, 설치 파일이 아닙니다.
