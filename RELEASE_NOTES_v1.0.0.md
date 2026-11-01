@@ -6,7 +6,7 @@ PpakAim은 사격 결과를 기록하고 감도·수직 배수 변경에 따른 
 
 ## 다운로드
 
-릴리스 하단 **Assets**에서 `PpakAim-Setup-v1.0.0.exe`를 다운로드하세요.
+릴리스 하단 **Assets**에서 `PpakAim-Setup.exe`를 다운로드하세요.
 
 ## 설치 및 보안 안내
 
@@ -20,13 +20,13 @@ Windows Defender 등 보안 도구가 악성코드로 탐지하면 실행을 강
 ## SHA-256
 
 ```text
-파일명: PpakAim-Setup-v1.0.0.exe
+파일명: PpakAim-Setup.exe
 SHA-256: 33e7b2dae8ad60e153cf79bc725771017de128d46901abffe81b9dd50339595a
 ```
 
-이 값은 업로드된 `PpakAim-Setup(1).exe` 원본에서 계산되었습니다. 파일 **내용을 수정하거나 재빌드했다면 해시를 다시 계산**해야 합니다.
+GitHub 릴리스에 게시된 파일의 SHA-256과 대화에 업로드된 원본 파일의 SHA-256이 일치합니다. 파일 **내용을 수정하거나 재빌드했다면 해시를 다시 계산**해야 합니다.
 
-[설치 및 파일 검증 방법](INSTALL.md)
+[설치 및 파일 검증 방법](https://github.com/gudtjr980-arch/PpakAim-Download/blob/main/INSTALL.md)
 
 ## 오류 제보
 
