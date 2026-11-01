@@ -4,22 +4,22 @@
 
 [PpakAim 공식 GitHub Releases](https://github.com/gudtjr980-arch/PpakAim-Download/releases)에서 게시된 설치 파일을 다운로드합니다.
 
-현재 준비 중인 최초 배포 파일명은 `PpakAim-Setup-v1.0.0.exe`입니다. **릴리스가 게시되기 전에는 다운로드할 수 없습니다.**
+**v1.0.0 배포 완료:** [실제 설치 파일 PpakAim-Setup.exe 다운로드](https://github.com/gudtjr980-arch/PpakAim-Download/releases/download/V1.0.0/PpakAim-Setup.exe)
 
 ## 2. 다운로드 파일 SHA-256 확인
 
-첫 공개 배포 예정인 설치 원본 `PpakAim-Setup(1).exe`의 SHA-256:
+게시된 설치 파일 `PpakAim-Setup.exe`의 SHA-256 (GitHub의 파일 메타데이터와 원본 일치 확인):
 
 ```text
 33e7b2dae8ad60e153cf79bc725771017de128d46901abffe81b9dd50339595a
 ```
 
-파일 이름만 `PpakAim-Setup-v1.0.0.exe`로 바꾸면 이 해시는 유지됩니다. 파일 본문을 변경하거나 재빌드했다면 새로운 해시를 게시해야 합니다.
+파일 이름만 변경해도 해시는 유지되지만, 파일 본문을 변경하거나 재빌드했다면 새로운 해시를 게시해야 합니다.
 
 Windows PowerShell을 열고 다운로드한 파일 경로에 맞게 실행합니다.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 "$env:USERPROFILE\Downloads\PpakAim-Setup-v1.0.0.exe"
+Get-FileHash -Algorithm SHA256 "$env:USERPROFILE\Downloads\PpakAim-Setup.exe"
 ```
 
 출력된 `Hash`가 위 값과 완전히 일치하는지 확인하세요. 일치하지 않으면 실행하지 말고 다운로드한 파일과 배포 공지를 다시 확인하세요.
